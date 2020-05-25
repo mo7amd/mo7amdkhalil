@@ -12,7 +12,7 @@ export default function Home() {
             Software Engineer from Alexandria, EG.
             I create Beautiful looking and high performance web apps to help businesses do better online.
           </h2>
-          <Link prefetch href="/projects">
+          <Link href="/projects">
             <a>
               My Projects
             </a>
@@ -38,9 +38,11 @@ export default function Home() {
             let&apos;s work together
           </h2>
           <p>Have a project you'd like to discuss?</p>
-          <a className="btn btn--large btn--hover-light" href="/contact/">
-            Get in Touch
-          </a>
+            <Link href="/contact">
+              <a className="btn btn--large btn--hover-light">
+                Get in Touch
+              </a>
+            </Link>
         </div>
         <div>
           <ul>
@@ -50,7 +52,7 @@ export default function Home() {
             </li>
             <li>
               <IoLogoLinkedin color="#4b6cc1"/>
-              <a href="https://www.linkedin.com/in/muhammad-khalil/">on LinkedIn</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammad-khalil/">on LinkedIn</a>
             </li>
           </ul>
         </div>

@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <Link prefetch href="/">
+        <Link href="/">
           <a>
             Mohamed Khalil
           </a>
@@ -19,28 +19,28 @@ export default function Layout({ children }) {
         <nav>
           <ul>
             <li>
-              <Link prefetch href="/about">
+              <Link href="/about">
                 <a>
                   About
                 </a>
               </Link>
             </li>
             <li>
-              <Link prefetch href="/projects">
+              <Link href="/projects">
                 <a>
                   Projects
                 </a>
               </Link>
             </li>
             <li>
-              <Link prefetch href="/contact">
+              <Link href="/contact">
                 <a>
                   Contact
                 </a>
               </Link>
             </li>
             <li>
-              <Link prefetch href="/blog">
+              <Link href="/blog">
                 <a>
                   Blog
                 </a>
