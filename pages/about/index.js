@@ -1,18 +1,18 @@
 import React from 'react'
+import SiteCTA from '../../components/siteCTA'
+import BlogWidget from '../../components/blogWidget'
+import Section from '../../components/section'
+import SiteBanner from '../../components/siteBanner'
 
 export default function AboutPage() {
   return (
     <>
-      <section>
-        <div>
-          <div>
-            <h1>About Me</h1>
-            <h2>
-              Find out who I am, where I'm from and what I'm all about.
-            </h2>
-          </div>
-        </div>
-      </section>
+      <SiteBanner
+        title="About Me"
+        subTitle="Find out who I am, where I'm from and what I'm all about."
+      />
+      <Section>
+      </Section>
       <section className="section section--small spacing-huge-top">
         <div className="content-styles">
           <h2 id="who-i-am">Who I Am</h2>
@@ -30,6 +30,8 @@ export default function AboutPage() {
           <p>If you’ve got a project you’d like to work on with me just <a href="/contact">get in touch</a> and we can get to work!</p>
         </div>
       </section>
+      <BlogWidget />
+      <SiteCTA />
     </>
   )
 }

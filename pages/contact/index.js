@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCircle } from 'react-icons/fa'
+import SiteBanner from '../../components/siteBanner';
 
 export default function ContactPage({ status = true }) {
   const statusColor = status ? 'green' : 'red'
@@ -11,16 +12,10 @@ export default function ContactPage({ status = true }) {
   }
   return (
     <>
-      <section>
-        <div>
-          <div>
-            <h1>Contact Me</h1>
-            <h2>
-              If you’d like to chat about a project please fill in the form below and I’ll get back within 1-2 days.
-            </h2>
-          </div>
-        </div>
-      </section>
+      <SiteBanner
+        title="Contact Me"
+        subTitle="If you’d like to chat about a project please fill in the form below and I’ll get back within 1-2 days."
+      />
       <section className="spacing-huge">
         <div className="section section--small spacing-large-bottom">
           <div className="page-cta">

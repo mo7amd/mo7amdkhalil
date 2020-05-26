@@ -1,9 +1,13 @@
 import React from 'react'
+import SiteBanner from '../../components/siteBanner'
 
 export default function BlogPage() {
   return (
-    <div>
-      Blog Page
-    </div>
+    <>
+      <SiteBanner
+        title="My Blog"
+        subTitle="Behind the scenes of products I’ve built, projects I’ve worked on and more."
+      />
+    </>
   )
 }

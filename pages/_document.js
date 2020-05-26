@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" type="text/css" media="all" />
+        </Head>
         <body>
           <Main />
           <NextScript />
